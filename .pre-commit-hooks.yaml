@@ -1,0 +1,20 @@
+- id: analyze
+  name: run flutter analyze
+  entry: run-flutter-analyze.sh
+  language: script
+- id: test
+  name: run flutter test
+  entry: run-flutter-test.sh
+  language: script
+- id: format-overwrite
+  name: run dart format and overwrite when issues were found
+  entry: run-dart-format-overwrite.sh
+  language: script
+- id: dart-analyze
+  name: run dart analyze
+  entry: run-dart-analyze.sh
+  language: script
+- id: dart-test
+  name: run dart test
+  entry: run-dart-test.sh
+  language: script
