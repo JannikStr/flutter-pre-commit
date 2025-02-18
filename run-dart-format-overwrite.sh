@@ -1,6 +1,6 @@
 #!/bin/sh
 
-RESULT=$(dart format --set-exit-if-changed)
+RESULT=$(dart format --set-exit-if-changed lib)
 EXIT_CODE=$?
 
 if [ $EXIT_CODE -ne 0 ]; then
