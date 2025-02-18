@@ -3,7 +3,7 @@
 Provides access to automatically execute following commands/hooks:
 - `flutter analyze` (id: analyze)
 - `flutter test` (id: test)
-- `dart format` (id: format)
+- `dart format` (id: format-overwrite)
 - `dart analyze` (id: dart-analyze)
 - `dart test` (id: dart-test)
 
@@ -17,5 +17,5 @@ For example to activate all flutter based hooks (+ `dart format`):
     hooks:
     -   id: analyze
     -   id: test
-    -   id: format
+    -   id: format-overwrite
 ```
